@@ -36,7 +36,8 @@
 #define TDOAuthURLRequestTimeout 30.0
 #endif
 #ifndef TDUserAgent
-#warning Don't be a n00b! #define TDUserAgent!
+//#warning Don't be a n00b! #define TDUserAgent!
+#define TDUserAgent @"Camera+"
 #endif
 
 int TDOAuthUTCTimeOffset = 0;
